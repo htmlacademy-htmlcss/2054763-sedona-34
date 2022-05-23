@@ -35,7 +35,7 @@
       <img src="" alt="counter"> <!-- Здесь должен быть кружочек счетчика -->
     </div>
 
-    <button class="botton">Хочу сюда!</button>
+    <button class="button">Хочу сюда!</button>
     </header>
 
     <main class="main-index">
@@ -50,7 +50,7 @@
       </div>
       </div>
 
-      <section>
+      <section class="advantages">
         <div><!--Заголовок-->
           <h1>Седона-небольшой городок в аризоне, заслуживающий большего</h1>
           <p>Рассмотрим 5 причин, по которым Седона круче чем Гранд-Коньён!</p>
@@ -118,14 +118,36 @@
       <section>
         <h2>Заинтересовались?</h2>
         <p>Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-        <button class="botton">ПОИСК ГОСТИНИЦЫ В седоне</button>
+        <button class="button">ПОИСК ГОСТИНИЦЫ В седоне</button>
+        <form class="appointment-form" action="https://echo.htmlacademy.ru/" method="post" class="visually-hidden">
+          <legend>Поиск гостиницы в Седоне</legend>
+          <button class="button-close">
+            <img src="" alt="close">
+          </button>
+          <label>
+            Дата Заезда: <input type="date">
+          </label>
+          <span class="visually-hidden">Мы не можем отправить вас в прошлое</span>
+          <label>
+            Дата Выезда: <input type="date">
+          </label>
+          <label>
+            Взрослые: <input type="number" step="1" min="1">
+          </label>
+          <label>
+            Дети:<img src= "" title= "Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно." alt="information"> 
+            <input type="number" step="1" min="0">
+          </label>
+          <span class="visually-hidden">На эти даты есть свободные номера. Пока есть.</span>
+          <button class="button" type="submit">Найти</button>
+        </form>
       </section>
 
       <div>
         <h2>Подпишись на рассылку</h2>
         <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
         <input type="email" placeholder="Ваш e-mail">
-        <button class="botton">Подписаться</button>
+        <button class="button">Подписаться</button>
       </div>
 
     </main>
@@ -153,7 +175,6 @@
       <a href="https://htmlacademy.ru/">
         <img src="" alt="htmlacademy" class="logo-html-academy">
       </a>
-
     </footer>
   </body>
 </html>
