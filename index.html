@@ -7,9 +7,10 @@
       </head>
       <body class="body">
         <header class="main-header">
-          <div>
-            <img url="" alt="logo-sedona" class="logo-sedona">
-          </div>
+          
+          <a class="navigation-link" href="index.html">
+            <img url="" alt="Логотип: City of Sedona" class="logo-sedona">
+          </a>
 
           <nav class="main-navigation">
           <ul class="navigation-list">
@@ -25,163 +26,174 @@
           </ul>
         </nav>
 
-        <div class="search">
-          <input type="search" class="visually-hidden">
-          <button><img src="" alt="search"></button> <!-- Здесь должна быть картинка лупы -->
-        </div>
+          <form class="search">
+            <input type="search">
+            <button type="submit" class="button"><img src="" alt="Поиск"></button>
+          </form> <!-- Здесь должна быть картинка лупы -->
 
-        <div class="">
-          <img src="" alt="favorites"> <!-- Здесь должна быть картинка сердечка -->
-          <img src="" alt="counter"> <!-- Здесь должен быть кружочек счетчика -->
-        </div>
+        <a class="favorites">
+          <img src="" alt="Избранное"> <!-- Здесь должна быть картинка сердечка -->
+          <span class="favorites-counter">12
+            <img src="" alt="Количество избранного">
+          </span> <!-- Здесь должен быть кружочек счетчика -->
+        </a>
 
-        <button class="button">Хочу сюда!</button>
+        <button type="submit" class="button" href="#">Хочу сюда!</button>
         </header>
 
-        <main class="main-index">
-          <div><!--Блок с бекграундом -->
-          <div>
-            <span>WELCOME</span>
-            <span> - to the gordeus - </span>
+        <main class="main-index">          
+          <div class="welcome">
+            <img src="" alt="Добро пожаловать в великолепную Седону"><!-- to the gorgeous --> 
+            <h1 class="visually-hidden">Седона</h1>
+            <img src="" alt="Седона. Потому что Гранд-Коньён-отстой"><!-- "because the grand canyon sucks" -->
           </div>
-          <div>
-              <h2>SEDONA</h2>
-              <p>"because the grand canyon sucks"</p>
-          </div>
-          </div>
-
+          
+          <h2 class=visually-hidden>O Седоне</h2>
           <section class="advantages">
-            <div><!--Заголовок-->
-              <h1>Седона-небольшой городок в аризоне, заслуживающий большего</h1>
-              <p>Рассмотрим 5 причин, по которым Седона круче чем Гранд-Коньён!</p>
-            </div>
-
-              <div class=""> <!--Блок с картинкой справа -->
-                  <div class=""> <!-- правый блок-->
+            <h2>Седона-небольшой городок в аризоне, заслуживающий большего</h2>
+            <p>Рассмотрим 5 причин, по которым Седона круче чем Гранд-Коньён!</p>
+            
+              <div class="container-row"> <!--Блок с картинкой-->
+                  <div class="container-box">
                     <h3>Настояший городок</h3>
-                    <span>- #1 -</span>
+                    <span>- №1 -</span>
                     <p>Седона - не атракцион для туристов, там течет своя жизнь</p>
-                  </div> <!-- правый блок-->
-                  <div class="">  <!-- левый блок-->
-                    <img src="" alt="Flowers"> <!-- Должна быть Первая картинка с цветочками -->
-                  </div> <!-- левый блок-->
-              </div><!-- Блок с картинкой-->
+                  </div>
+                  <div class="long-img"><!-- Должна быть Первая картинка с цветочками -->
+                    <img src="" alt="Цветы на фоне гостиницы в Седоне"> 
+                  </div> 
+              </div>
 
-            <div class=""> <!--блок карточек-->
-                <div class=""> <!--карточка 1-->
-                  <img src="" alt="home">
-                  <h3>жильё</h3>
-                  <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
-                </div>
-                <div class=""> <!--карточка 2-->
-                  <img src="" alt="eat">
-                  <h3>еда</h3>
-                  <p>Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
-                </div> 
-                <div class=""> <!--карточка 3-->
-                  <img src="" alt="box">
-                  <h3>сувениры</h3>
-                  <p>Не только китайского, но и настоящего местного производства!</p>
-                </div>
-            </div><!--блок карточек-->
+              <div class="container-row"> <!--блок карточек-->
+                  <div class="container-box">
+                    <img src="" class="icon-img" alt="Картинка домика">
+                    <h3>Жильё</h3>
+                    <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+                  </div>
+                  <div class="container-box">
+                    <img src="" class="icon-img" alt="Картинка бургера">
+                    <h3>Еда</h3>
+                    <p>Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
+                  </div> 
+                  <div class="container-box">
+                    <img src="" class="icon-img" alt="Подарочная коробка">
+                    <h3>сувениры</h3>
+                    <p>Не только китайского, но и настоящего местного производства!</p>
+                  </div>
+              </div>
 
-                <div class=""> <!-- Блок с картинкой-->
-                  <div class="">  <!-- правый блок-->
-                    <img src="" alt="moutins"> <!-- Должна быть Первая картинка с коньона -->
-                  </div> <!-- правый блок-->
-                  <div class=""> <!-- левый блок-->
-                    <h3>Там есть мост дьявола</h3>
-                    <span>- #3 -</span>
-                    <p>Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
-                  </div> <!-- левый блок-->     
-                </div><!-- Блок с картинкой слева-->
+              <div class="container-row"> <!-- Блок с картинкой-->
+                <div class="long-img"><!-- Должна быть Первая картинка с коньона -->
+                  <img src="" alt="Фотография Моста Дьявола"> 
+                </div>
+                <div class="container-box">
+                  <h3>Там есть мост дьявола</h3>
+                  <span>- №3 -</span>
+                  <p>Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+                </div>    
+              </div>
 
-            <div class=""> <!--блок карточек #2-->
-                <div class=""> <!--карточка 4-->
-                  <h3>Небольшая площадь</h3>
-                  <span>- #3 -</span>
-                  <p>Все достопримечательности находятся очень близко</p>
-                </div>
-                <div class=""> <!--карточка 5-->
-                  <h3>Красивая дорога</h3>
-                  <span>- #4 -</span>
-                  <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
-                </div> 
-                <div class=""> <!--карточка 6-->
-                  <h3>Мало туристов</h3>
-                  <span>- #5 -</span>
-                  <p>Большинство едет в Гранд Каньон и толпится там</p>
-                </div>
-            </div><!--блок карточек #2-->
+              <div class="container-row"> <!--блок карточек #2-->
+                  <div class="container-text">
+                    <h3>Небольшая площадь</h3>
+                    <span>- №3 -</span>
+                    <p>Все достопримечательности находятся очень близко</p>
+                  </div>
+                  <div class="container-text">
+                    <h3>Красивая дорога</h3>
+                    <span>- №4 -</span>
+                    <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+                  </div> 
+                  <div class="container-text">
+                    <h3>Мало туристов</h3>
+                    <span>- №5 -</span>
+                    <p>Большинство едет в Гранд Каньон и толпится там</p>
+                  </div>
+              </div>
           </section>
 
-          <section>
+          <div>
             <h2>Заинтересовались?</h2>
             <p>Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-            <button class="button">ПОИСК ГОСТИНИЦЫ В седоне</button>
-            <form class="appointment-form" action="https://echo.htmlacademy.ru/" method="post" class="visually-hidden">
-              <legend>Поиск гостиницы в Седоне</legend>
-              <button class="button-close">
-                <img src="" alt="close">
-              </button>
-
-            <legend>
-              <label>
-                Дата Заезда: <input type="date">
-              </label>
-              <span class="visually-hidden">Мы не можем отправить вас в прошлое</span>
-            </legend>
-            <legend>
-              <label>
-                Дата Выезда: <input type="date">
-              </label>
-              <span class="visually-hidden">На эти даты есть свободные номера. Пока есть.</span>
-            </legend>
-
-              <label>
-                Взрослые: <input type="number" step="1" min="1">
-              </label>
-              <label>
-                Дети:<img src= "" title= "Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно." alt="information"> 
-                <input type="number" step="1" min="0">
-              </label>
-              
-              <button class="button" type="submit">Найти</button>
+            <form>
+              <button type="submit" class="button" href="#">ПОИСК ГОСТИНИЦЫ В седоне</button>
             </form>
-          </section>
+          </div>
 
           <div>
             <h2>Подпишись на рассылку</h2>
             <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
-            <input type="email" placeholder="Ваш e-mail">
-            <button class="button">Подписаться</button>
+              <form>
+                <input type="email" placeholder="Ваш e-mail">
+                <button type="submit" class="button">Подписаться</button>
+              </form>
           </div>
 
         </main>
 
         
         <footer class="main-footer">
-          <div>
-            <a href="https://vk.com/htmlacademy">
+          <ul class="social-menu">
+            <li class="social-menu-item">
+              <a  class="social-menu-link" href="https://vk.com/htmlacademy">
               <img src="" alt="VKontakte" class="logo-vkontakte">
-            </a>
+              </a>
+            </li>
 
-            <a href="https://t.me/htmlacademy">
+            <li class="social-menu-item">
+              <a class="social-menu-link" href="https://t.me/htmlacademy">
               <img src="" alt="Telegramm" class="logo-telegramm" >
-            </a>
+              </a>
+            </li>
 
-            <a href="https://www.youtube.com/user/htmlacademyru">
+            <li class="navigation-item">
+              <a class="social-menu-link" href="https://www.youtube.com/user/htmlacademyru">
               <img src="" alt="youtube" class="logo-yuotube">
-            </a>
-          </div>
+              </a>
+            </li>
 
-          <a href="tel:+7(812)8121212">
-            <img src="" alt="telephone-number" class="telephone-number"> <!--+7(812)812-12-12-->
-          </a>
+            <li class="social-menu-item">
+              <a class="social-menu-link" href="tel:+7(812)8121212">
+              <img src="" alt="Номер телефона +7(812)8121212" class="telephone-number">
+              </a>
+            </li>
 
-          <a href="https://htmlacademy.ru/">
-            <img src="" alt="htmlacademy" class="logo-html-academy">
-          </a>
+            <li class="social-menu-item">
+              <a class="social-menu-link" href="https://htmlacademy.ru/">
+              <img src="" alt="htmlacademy" class="logo-html-academy">
+              </a>
+            </li>
+          </ul>
+
         </footer>
+        <form class="appointment-form" action="https://echo.htmlacademy.ru/" method="post" class="visually-hidden">
+          <legend>Поиск гостиницы в Седоне</legend>
+          <button class="button-close">
+            <img src="" alt="close">
+          </button>
+
+        <legend>
+          <label>
+            Дата Заезда: <input type="date">
+          </label>
+          <span class="visually-hidden">Мы не можем отправить вас в прошлое</span>
+        </legend>
+        <legend>
+          <label>
+            Дата Выезда: <input type="date">
+          </label>
+          <span class="visually-hidden">На эти даты есть свободные номера. Пока есть.</span>
+        </legend>
+
+          <label>
+            Взрослые: <input type="number" step="1" min="1">
+          </label>
+          <label>
+            Дети:<img src= "" title= "Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно." alt="information"> 
+            <input type="number" step="1" min="0">
+          </label>
+          
+          <button class="button" type="submit">Найти</button>
+        </form>
       </body>
 </html>
