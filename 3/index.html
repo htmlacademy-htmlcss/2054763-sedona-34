@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ru">
+      <head>
+        <meta charset="utf-8">
+        <title>HTML Academy: Седона</title>
+        <link rel="stylesheet" href="css\stayles.css">
+        <base href="https://htmlacademy-htmlcss.github.io/2054763-sedona-34/3/">
+</head>
+      <body class="body">
+        <header class="main-header">
+          
+          <a class="navigation-link" href="index.html">
+            <img src="images\header\logo.svg" alt="Логотип: City of Sedona" class="logo-sedona" 
+            height: 70px; width: 139px;>
+          </a>
+
+          <nav class="main-navigation">
+          <ul class="navigation-list">
+            <li class=navigation-item>
+              <a class="navigation-link" href="index.html">Главная</a>
+            </li>
+            <li class=navigation-item>
+              <a class="navigation-link" href="#">О Седоне</a>
+            </li>
+            <li class=navigation-item>
+              <a class="navigation-link" href="catalog.html">Гостиницы</a>
+            </li>
+          </ul>
+        </nav>
+
+          <form class="search">
+            <input type="search">
+            <button type="submit" class="button-search">
+              <!-- <img src="images\header\search.svg" alt="Поиск"> Как правильно сделать эту кнопку? -->
+            </button>
+          </form> <!-- Здесь должна быть картинка лупы -->
+
+        <a class="favorites">
+          <!-- <img src="images\header\favorite.svg" alt="Избранное"> -->
+          <span class="favorites-counter">12</span> <!-- Здесь должен быть кружочек счетчика -->
+        </a>
+
+        <button type="button" class="button" id="1">Хочу сюда!</button> 
+        </header>
+
+        <main class="main-index">          
+          <h1 class="visually-hidden">Седона</h1>
+          <div class="welcome">
+            <img src="images\content-images\text-welcome.svg" alt="Добро пожаловать в великолепную Седону">
+          </div>
+          
+          <h2 class=visually-hidden>O Седоне</h2>
+          <section class="advantages">
+            <h2 class="title-h2">Седона-небольшой городок в аризоне, заслуживающий большего</h2>
+            <p class="text">Рассмотрим 5 причин, по которым Седона круче чем Гранд-Коньён!</p>
+            
+              <div class="banner-row"> <!--Блок с картинкой-->
+                  <div class="container-box">
+                    <h3>Настояший городок</h3>
+                    <span>- №1 -</span>
+                    <p>Седона - не атракцион для туристов, там течет своя жизнь</p>
+                  </div>
+                  <div class="banner-image">
+                    <img src="images\content-images\advantades-first.jpg" 
+                    width="800" height="384" alt="Цветы на фоне гостиницы в Седоне"> 
+                  </div> 
+              </div>
+
+              <div class="container-row">
+                  <div class="container-box">
+                    <img src="images\content-images\icon-home.svg" class="icon-image"
+                    width="75" height="72" alt="Картинка домика">
+                    <h3>Жильё</h3>
+                    <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+                  </div>
+                  <div class="container-box">
+                    <img src="images\content-images\icon-food.svg" class="icon-image" 
+                    width="74" height="70" alt="Картинка бургера">
+                    <h3>Еда</h3>
+                    <p>Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
+                  </div> 
+                  <div class="container-box">
+                    <img src="images\content-images\icon-souvenir.svg" class="icon-image"
+                    width="64" height="76" alt="Подарочная коробка">
+                    <h3>Cувениры</h3>
+                    <p>Не только китайского, но и настоящего местного производства!</p>
+                  </div>
+              </div>
+
+              <div class="banner-row">
+                <div class="banner-image">
+                  <img src="images\content-images\advantades-second.jpg"
+                  width="800" height="384" alt="Фотография Моста Дьявола"> 
+                </div>
+                <div class="container-box">
+                  <h3>Там есть мост дьявола</h3>
+                  <span>- №3 -</span>
+                  <p>Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+                </div>    
+              </div>
+
+              <div class="container-row"> <!--блок карточек #2-->
+                  <div class="container-text">
+                    <h3>Небольшая площадь</h3>
+                    <span>- №3 -</span>
+                    <p>Все достопримечательности находятся очень близко</p>
+                  </div>
+                  <div class="container-text">
+                    <h3>Красивая дорога</h3>
+                    <span>- №4 -</span>
+                    <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+                  </div> 
+                  <div class="container-text">
+                    <h3>Мало туристов</h3>
+                    <span>- №5 -</span>
+                    <p>Большинство едет в Гранд Каньон и толпится там</p>
+                  </div>
+              </div>
+          </section>
+
+          <div>
+            <h2 class="title-h2">Заинтересовались?</h2>
+            <p class="text">Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+              <button type="submit" class="button">ПОИСК ГОСТИНИЦЫ В седоне</button>
+          </div>
+
+          <div class="subscription">
+            <h2 class="title-h2">Подпишись на рассылку</h2>
+            <p class="text">Только полезная информация и никакого спама, честное бойскаутское!</p>
+              <form>
+                <input type="email" placeholder="Ваш e-mail">
+                <button type="submit" class="button">Подписаться</button>
+              </form>
+          </div>
+        </main>
+
+        
+        <footer class="main-footer">
+        
+          <ul class="social-menu">
+          <li class="social-menu-item">
+              <a  class="social-menu-link" href="https://vk.com/htmlacademy">
+              <img src="images\footer\vkontakte.svg" alt="ВКонтакте" class="logo-vkontakte">
+              </a>
+          </li>
+  
+          <li class="social-menu-item">
+              <a class="social-menu-link" href="https://t.me/htmlacademy">
+              <img src="images\footer\telegramm.svg" alt="Телеграмм" class="logo-telegramm" >
+              </a>
+          </li>
+  
+          <li class="navigation-item">
+              <a class="social-menu-link" href="https://www.youtube.com/user/htmlacademyru">
+              <img src="images\footer\youtube.svg" alt="Ютуб" class="logo-yuotube">
+              </a>
+          </li>
+          </ul>
+  
+          <a class="social-menu-link" href="tel:+7(812)8121212" class="telephone-number">
+            +7 (812) 812-12-12
+          </a>
+  
+          <a class="social-menu-link" href="https://htmlacademy.ru/">
+            <svg width="115" height="33" fill="none" alt="html Академия" class="logo-html-academy" xmlns="http://www.w3.org/2000/svg"><path d="M0 12.9v2.6h2.5v-2.6H0ZM11.6 4.5c-1.6 0-2.8.7-3.6 1.7h-.1V0h-2v15.5h2v-5.3c0-2.1 1.3-3.6 3.3-3.6 1.8 0 2.9 1.4 2.9 3.2v5.7h2V9.4c.1-3-1.8-4.9-4.5-4.9ZM26.6 4.8h-4.8V1.1h-2v3.8h-1.9v2h1.9v6c0 1.7 1 2.7 2.7 2.7h4.1v-2h-3.7c-.7 0-1.1-.4-1.1-1.1V6.8h4.8v-2ZM41.1 4.6c-1.6 0-2.9.8-3.5 2.1h-.1c-.6-1.2-1.8-2.1-3.4-2.1-1.4 0-2.5.8-3.1 1.8h-.1V4.8H29v10.6h2V10c0-2 1-3.5 2.6-3.5 1.5 0 2.4 1 2.4 2.6v6.3h2V9.8c0-2.4 1.4-3.3 2.6-3.3 1.5 0 2.4 1 2.4 2.6v6.3h2V8.9c.1-2.5-1.4-4.3-3.9-4.3ZM47.8 12.7c0 1.7 1 2.7 2.8 2.7h2v-2h-1.7c-.7 0-1.1-.4-1.1-1.1V0h-2v12.7ZM28.9 19.7c-.9-1.1-2.2-1.8-3.9-1.8-3.1 0-5.4 2.3-5.4 5.6s2.3 5.6 5.4 5.6c1.8 0 3-.8 3.8-1.9h.1v1.6h2V18.2h-2v1.5Zm-3.6 7.4c-2.2 0-3.6-1.6-3.6-3.6s1.4-3.6 3.6-3.6 3.6 1.6 3.6 3.6c0 1.9-1.4 3.6-3.6 3.6ZM44.2 22c-.5-2.4-2.6-4.1-5.4-4.1a5.4 5.4 0 0 0-5.6 5.6c0 3.1 2.2 5.6 5.6 5.6 2.8 0 4.9-1.8 5.4-4.2h-2.1a3.4 3.4 0 0 1-3.3 2.3c-2.2 0-3.6-1.6-3.6-3.6s1.4-3.6 3.6-3.6c1.6 0 2.8 1 3.3 2.2h2.1V22ZM55.1 19.7c-.9-1.1-2.2-1.8-3.9-1.8-3.1 0-5.4 2.3-5.4 5.6s2.3 5.6 5.4 5.6c1.8 0 3-.8 3.8-1.9h.1v1.6h2V18.2h-2v1.5Zm-3.6 7.4c-2.2 0-3.6-1.6-3.6-3.6s1.4-3.6 3.6-3.6 3.6 1.6 3.6 3.6c0 1.9-1.5 3.6-3.6 3.6ZM68.7 19.8c-.9-1.1-2.2-1.9-3.9-1.9-3.1 0-5.4 2.3-5.4 5.6s2.2 5.6 5.4 5.6c1.7 0 3-.8 3.8-1.8h.1v1.5h2V13.4h-2v6.4Zm-3.6 7.3c-2.2 0-3.6-1.6-3.6-3.6s1.4-3.6 3.6-3.6 3.6 1.6 3.6 3.6c-.1 2-1.5 3.6-3.6 3.6ZM78.3 17.9c-3.3 0-5.5 2.5-5.5 5.6 0 3 2.1 5.6 5.5 5.6 2.5 0 4.5-1.3 5.2-3.6h-2.1c-.5 1-1.6 1.6-3 1.6-1.9 0-3.3-1.3-3.4-2.9h8.8c.2-3.6-2-6.3-5.5-6.3Zm0 1.9c1.7 0 3 1 3.3 2.6h-6.5c.3-1.5 1.5-2.6 3.2-2.6ZM98.2 17.9c-1.6 0-2.9.8-3.6 2h-.1c-.6-1.2-1.8-2-3.4-2-1.4 0-2.5.7-3.1 1.8v-1.5h-1.9v10.6h2v-5.4c0-2 1-3.4 2.6-3.5 1.5 0 2.4 1 2.4 2.6v6.3h2v-5.6c0-2.4 1.4-3.3 2.6-3.3 1.5 0 2.4 1 2.4 2.6v6.3h2v-6.5c.1-2.6-1.4-4.4-3.9-4.4ZM109.4 27l-3.6-8.9h-2.2l4.8 11.6c-.3.9-.7 1.2-1.7 1.2h-2.5v2h2.5c1.8 0 2.8-.8 3.5-2.6l4.7-12.2h-2.1l-3.4 8.9Z" fill="#000"/></svg>
+          </a>
+          
+      </footer>
+        <form class="appointment-form, visually-hidden" action="https://echo.htmlacademy.ru/" method="post" >
+          <h2>Поиск гостиницы в Седоне</h2>
+          <button class="button-close">
+            <img src="" alt="close">
+          </button>
+
+          <label>
+            Дата Заезда: <input type="date">
+          </label>
+          <span class="visually-hidden">Мы не можем отправить вас в прошлое</span>
+          <label>
+            Дата Выезда: <input type="date">
+          </label>
+          <span class="visually-hidden">На эти даты есть свободные номера. Пока есть.</span>
+          <label>
+            Взрослые: <input type="number" step="1" min="1">
+          </label>
+          <label>
+            Дети:<img src= "" title= "Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно." alt="information"> 
+            <input type="number" step="1" min="0">
+          </label>
+          
+          <button class="button" type="submit">Найти</button>
+        </form>
+      </body>
+</html>
