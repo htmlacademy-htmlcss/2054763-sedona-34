@@ -1,0 +1,175 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:htmlcss34
+X-APPLE-CALENDAR-COLOR:#F15B29
+X-OUTLOOK-COLOR:#F15B29
+X-FUNAMBOL-COLOR:#F15B29
+X-WR-CALNAME:HTML и CSS. Профессиональная вёрстка 
+ сайтов #34
+BEGIN:VEVENT
+UID:6297f405e84bc
+DTSTART:20220519T160000Z
+SEQUENCE:0
+TRANSP:OPAQUE
+DTEND:20220519T170000Z
+URL:https://up.htmlacademy.ru/htmlcss/34/live
+SUMMARY:HTML и CSS. Профессиональная вёрстка са
+ йтов #34. Раздел 1. Старт
+CLASS:PUBLIC
+DESCRIPTION:Познакомимся с преподавателями\, н
+ аставниками и учебным процессом на курс
+ е. Рассмотрим устройство веба и чем вы бу
+ дете заниматься на работе. Установим и н
+ астроим инструменты для работы.
+DTSTAMP:20220601T231933Z
+END:VEVENT
+BEGIN:VEVENT
+UID:6297f405e8537
+DTSTART:20220526T160000Z
+SEQUENCE:0
+TRANSP:OPAQUE
+DTEND:20220526T170000Z
+URL:https://up.htmlacademy.ru/htmlcss/34/live
+SUMMARY:HTML и CSS. Профессиональная вёрстка са
+ йтов #34. Раздел 2. Разметка
+CLASS:PUBLIC
+DESCRIPTION:Создадим семантичную\, доступную и
+  выразительную разметку страниц проекто
+ в по макету. 
+DTSTAMP:20220601T231933Z
+END:VEVENT
+BEGIN:VEVENT
+UID:6297f405e8579
+DTSTART:20220530T160000Z
+SEQUENCE:0
+TRANSP:OPAQUE
+DTEND:20220530T170000Z
+URL:https://up.htmlacademy.ru/htmlcss/34/live
+SUMMARY:HTML и CSS. Профессиональная вёрстка са
+ йтов #34. Раздел 3. Графика
+CLASS:PUBLIC
+DESCRIPTION:Экспортируем графику из макета\, п
+ одключим контентную графику в разметку.
+DTSTAMP:20220601T231933Z
+END:VEVENT
+BEGIN:VEVENT
+UID:6297f405e85b8
+DTSTART:20220602T160000Z
+SEQUENCE:0
+TRANSP:OPAQUE
+DTEND:20220602T170000Z
+URL:https://up.htmlacademy.ru/htmlcss/34/live
+SUMMARY:HTML и CSS. Профессиональная вёрстка са
+ йтов #34. Раздел 4. Базовая стилизация
+CLASS:PUBLIC
+DESCRIPTION:Выполним базовую стилизацию стран
+ иц проекта.
+DTSTAMP:20220601T231933Z
+END:VEVENT
+BEGIN:VEVENT
+UID:6297f405e85f7
+DTSTART:20220609T160000Z
+SEQUENCE:0
+TRANSP:OPAQUE
+DTEND:20220609T170000Z
+URL:https://up.htmlacademy.ru/htmlcss/34/live
+SUMMARY:HTML и CSS. Профессиональная вёрстка са
+ йтов #34. Раздел 5. Сетки страниц на флекса
+ х
+CLASS:PUBLIC
+DESCRIPTION:Построим крупные сетки страниц с п
+ омощью флексов.
+DTSTAMP:20220601T231933Z
+END:VEVENT
+BEGIN:VEVENT
+UID:6297f405e8652
+DTSTART:20220616T160000Z
+SEQUENCE:0
+TRANSP:OPAQUE
+DTEND:20220616T170000Z
+URL:https://up.htmlacademy.ru/htmlcss/34/live
+SUMMARY:HTML и CSS. Профессиональная вёрстка са
+ йтов #34. Раздел 6. Сетки компонентов на фл
+ ексах
+CLASS:PUBLIC
+DESCRIPTION:Создадим мелкие сетки компонентов
+  страниц при помощи флексов.
+DTSTAMP:20220601T231933Z
+END:VEVENT
+BEGIN:VEVENT
+UID:6297f405e8690
+DTSTART:20220620T160000Z
+SEQUENCE:0
+TRANSP:OPAQUE
+DTEND:20220620T170000Z
+URL:https://up.htmlacademy.ru/htmlcss/34/live
+SUMMARY:HTML и CSS. Профессиональная вёрстка са
+ йтов #34. Раздел 7. Сетки компонентов на гр
+ идах
+CLASS:PUBLIC
+DESCRIPTION:Создадим мелкие сетки компонентов
+  страниц при помощи гридов.
+DTSTAMP:20220601T231933Z
+END:VEVENT
+BEGIN:VEVENT
+UID:6297f405e86ce
+DTSTART:20220627T160000Z
+SEQUENCE:0
+TRANSP:OPAQUE
+DTEND:20220627T170000Z
+URL:https://up.htmlacademy.ru/htmlcss/34/live
+SUMMARY:HTML и CSS. Профессиональная вёрстка са
+ йтов #34. Раздел 8. Декоративные элементы
+CLASS:PUBLIC
+DESCRIPTION:Добавим на страницы проектов мелк
+ ие декоративные и иконочные графические
+  элементы. Стилизуем текстовые блоки\, де
+ коративные элементы внутри сеток компон
+ ентов\, кнопки и ссылки.
+DTSTAMP:20220601T231933Z
+END:VEVENT
+BEGIN:VEVENT
+UID:6297f405e870c
+DTSTART:20220630T160000Z
+SEQUENCE:0
+TRANSP:OPAQUE
+DTEND:20220630T170000Z
+URL:https://up.htmlacademy.ru/htmlcss/34/live
+SUMMARY:HTML и CSS. Профессиональная вёрстка са
+ йтов #34. Раздел 9. Попапы\, слайдеры\, формы
+CLASS:PUBLIC
+DESCRIPTION:Сверстаем всплывающие элементы. Р
+ азберём приёмы стилизации форм и их элем
+ ентов. Рассмотрим состояния и позициони
+ рование элементов на странице.
+DTSTAMP:20220601T231933Z
+END:VEVENT
+BEGIN:VEVENT
+UID:6297f405e8749
+DTSTART:20220704T160000Z
+SEQUENCE:0
+TRANSP:OPAQUE
+DTEND:20220704T170000Z
+URL:https://up.htmlacademy.ru/htmlcss/34/live
+SUMMARY:HTML и CSS. Профессиональная вёрстка са
+ йтов #34. Раздел 10. Подготовка к защите
+CLASS:PUBLIC
+DESCRIPTION:Проверим проект на соответствие к
+ ритериям качества и подготовим его к пуб
+ ликации.
+DTSTAMP:20220601T231933Z
+END:VEVENT
+BEGIN:VEVENT
+UID:6297f405e8787
+DTSTART:20220713T160000Z
+SEQUENCE:0
+TRANSP:OPAQUE
+DTEND:20220713T170000Z
+URL:https://up.htmlacademy.ru/htmlcss/34/live
+SUMMARY:HTML и CSS. Профессиональная вёрстка са
+ йтов #34. Раздел 11. Финал
+CLASS:PUBLIC
+DESCRIPTION:Подведение итогов.
+DTSTAMP:20220601T231933Z
+END:VEVENT
+END:VCALENDAR
