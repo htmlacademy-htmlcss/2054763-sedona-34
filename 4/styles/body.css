@@ -1,0 +1,122 @@
+.body{
+    font-family: "PT Sans", sans-serif;
+    font-size: 16px;
+  line-height: 24px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+hr{
+border: 1px solid #E6E6E6;
+height: 0px;
+width: 1055px;
+left: 1128px;
+top: 1097px;
+}
+
+ul {
+  list-style: none;
+  text-decoration: none;
+  padding-left: 0px;
+}
+li{
+  list-style-type: none;
+}
+
+.button{
+  font-family: "PT Sans", sans-serif;
+  background: #756157;
+  border-radius: 4px;
+  border: 0px;
+  font-size: 16px;
+  line-height: 20px;
+  width:160px;
+  height:37px;
+  color: #FFFFFF;
+}
+
+
+.button-big{
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  width:574px;
+  height:60px;
+  color: #FFFFFF;
+}
+
+.subscription-button{
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  width:200px;
+  height:60px;
+  background: #82B3D3;
+  color: #FFFFFF;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.button-filter{
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  background: #82B3D3;
+  border-radius: 4px;
+  border: 0px;
+  width: 160px;
+  height:48px;
+}
+
+.button-detailed{
+  font-family: "PT Sans", sans-serif;
+  background: #756157;
+  color: #FFFFFF;
+  font-weight: 700;
+  border-radius: 4px;
+  border: 0px;
+  font-size: 16px;
+  line-height: 20px;
+  width:140px;
+  height:37px;
+}
+
+.button-favorite{
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  background: #82B3D3;
+  border-radius: 4px;
+  border: 0px;
+  width:140px;
+  height:37px;
+}
+
+.button-reset{
+  background: #ffffff00;
+  border: 0;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+

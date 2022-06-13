@@ -1,0 +1,43 @@
+/* 
+    В документе подключаются все основные стили и шрифты использованные на странице
+        1.  Сторонние документы и шрифты
+        2.  Локальные документы и шрифты
+            Пример
+                @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+                    @import url("body.css");
+    А также документы стилей по блокам разметки
+        1.  body - все стили кнопок будут здесь
+        2.  header
+        3.  main
+        4.  nav
+        5.  footer
+    Локальные документы содержат стили всех элементов в блоке
+        Пример
+        header.css
+            .main-header...-общий контейнер
+            .header-logo...-1й элемент
+            .header-menu...-2й элемент
+*/
+@import url("/styles/body.css");
+@import url("/styles/header.css");
+@import url("/styles/main.css");
+@import url("/styles/nav.css");
+@import url("/styles/footer.css");
+
+
+@font-face{
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("fonts/pt-sans-regular.woff2") format("woff2");
+    font-display: swap;
+    }
+
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("fonts/pt-sans-bold.woff2") format("woff2");
+    font-display: swap;
+  }
+
