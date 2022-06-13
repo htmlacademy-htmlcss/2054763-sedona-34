@@ -3,7 +3,7 @@
       <head>
         <meta charset="utf-8">
         <title>HTML Academy: Седона</title>
-        <link rel="stylesheet" href="css\stayles.css">
+        <link rel="stylesheet" href="/styles/styles.css">
       </head>
       <body class="body">
         <header class="main-header">
@@ -28,15 +28,15 @@
         </nav>
 
           <form class="search">
-            <input type="search">
+            <input class="visually-hidden" type="search">
             <button type="submit" class="button-search">
               <span class="visually-hidden">Кнопка поиска</span>
             </button>
           </form> <!-- Здесь должна быть картинка лупы -->
 
-        <a class="favorites">
+        <a class="favorites"><!-- Здесь Куча вопросиков -->
           <span class="visually-hidden">Избранное</span>
-          <span class="favorites-counter">12</span> <!-- Здесь должен быть кружочек счетчика -->
+          <span class="favorites-radius"><span class="favorites-counter">12</span></span> <!-- Здесь должен быть кружочек счетчика -->
         </a>
 
         <button type="button" class="button" id="1">Хочу сюда!</button> 
@@ -46,18 +46,19 @@
           <h1 class="visually-hidden">Седона</h1>
           <div class="welcome">
             <img src="images\content-images\text-welcome.svg" alt="Добро пожаловать в великолепную Седону">
+            <hr class="hr">
           </div>
           
           <h2 class=visually-hidden>O Седоне</h2>
           <section class="advantages">
-            <h2 class="title-h2">Седона-небольшой городок в аризоне, заслуживающий большего</h2>
+            <h2 class="title-h2">Седона — небольшой городок в Аризоне, заслуживающий большего!</h2>
             <p class="text">Рассмотрим 5 причин, по которым Седона круче чем Гранд-Коньён!</p>
             
               <div class="banner-row"> <!--Блок с картинкой-->
                   <div class="container-box">
-                    <h3>Настояший городок</h3>
-                    <span>- №1 -</span>
-                    <p>Седона - не атракцион для туристов, там течет своя жизнь</p>
+                    <h3>Настоящий городок</h3>
+                    <span class="numbers">- №1 -</span>
+                    <p class="numbers">Седона - не атракцион для туристов, там течет своя жизнь</p>
                   </div>
                   <div class="banner-image">
                     <img src="images\content-images\advantades-first.jpg" 
@@ -66,19 +67,19 @@
               </div>
 
               <div class="container-row">
-                  <div class="container-box">
+                  <div class="container-box-motive">
                     <img src="images\content-images\icon-home.svg" class="icon-image"
                     width="75" height="72" alt="Картинка домика">
                     <h3>Жильё</h3>
-                    <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+                    <p >Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
                   </div>
-                  <div class="container-box">
+                  <div class="container-box-motive">
                     <img src="images\content-images\icon-food.svg" class="icon-image" 
                     width="74" height="70" alt="Картинка бургера">
                     <h3>Еда</h3>
                     <p>Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
                   </div> 
-                  <div class="container-box">
+                  <div class="container-box-motive">
                     <img src="images\content-images\icon-souvenir.svg" class="icon-image"
                     width="64" height="76" alt="Подарочная коробка">
                     <h3>Cувениры</h3>
@@ -93,26 +94,26 @@
                 </div>
                 <div class="container-box">
                   <h3>Там есть мост дьявола</h3>
-                  <span>- №3 -</span>
-                  <p>Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+                  <span class="numbers">- №2 -</span>
+                  <p class="numbers">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
                 </div>    
               </div>
 
               <div class="container-row"> <!--блок карточек #2-->
                   <div class="container-text">
                     <h3>Небольшая площадь</h3>
-                    <span>- №3 -</span>
-                    <p>Все достопримечательности находятся очень близко</p>
+                    <span class="numbers">- №3 -</span>
+                    <p class="numbers">Все достопримечательности находятся очень близко</p>
                   </div>
                   <div class="container-text">
                     <h3>Красивая дорога</h3>
-                    <span>- №4 -</span>
-                    <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+                    <span class="numbers">- №4 -</span>
+                    <p class="numbers">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
                   </div> 
                   <div class="container-text">
                     <h3>Мало туристов</h3>
-                    <span>- №5 -</span>
-                    <p>Большинство едет в Гранд Каньон и толпится там</p>
+                    <span class="numbers">- №5 -</span>
+                    <p class="numbers">Большинство едет в Гранд Каньон и толпится там</p>
                   </div>
               </div>
           </section>
@@ -120,15 +121,15 @@
           <div>
             <h2 class="title-h2">Заинтересовались?</h2>
             <p class="text">Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-              <button type="submit" class="button">ПОИСК ГОСТИНИЦЫ В седоне</button>
+              <button type="submit" class="button button-big">ПОИСК ГОСТИНИЦЫ В седоне</button>
           </div>
 
           <div class="subscription">
-            <h2 class="title-h2">Подпишись на рассылку</h2>
-            <p class="text">Только полезная информация и никакого спама, честное бойскаутское!</p>
+            <h2 class="title-h2 subscription-text">Подпишись на рассылку</h2>
+            <p class="text subscription-text">Только полезная информация и никакого спама, честное бойскаутское!</p>
               <form>
-                <input type="email" placeholder="Ваш e-mail">
-                <button type="submit" class="button">Подписаться</button>
+                <input type="email" placeholder="Ваш e-mail" class="text subscription-input">
+                <button type="submit" class="button subscription-button">Подписаться</button>
               </form>
           </div>
         </main>
@@ -159,7 +160,7 @@
           </li>
           </ul>
   
-          <a class="social-menu-link" href="tel:+7(812)8121212" class="telephone-number">
+          <a class="social-menu-link telephone-number" href="tel:+7(812)8121212" >
             +7 (812) 812-12-12
           </a>
   
